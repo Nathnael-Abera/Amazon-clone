@@ -1,0 +1,19 @@
+.order__total{
+    font-weight: 500;
+    text-align: right;
+}
+.order__id{
+    text-align: right;
+}
+.order{
+    padding: 40px;
+    margin: 20px 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 70%;
+    align-items: center;
+}
+.order__container{
+    display: flex;
+    justify-content: center;
+}

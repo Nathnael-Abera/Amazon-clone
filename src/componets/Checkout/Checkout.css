@@ -1,0 +1,32 @@
+.checkout__img {
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 1rem;
+}
+.checkout__title {
+	margin-right: 1rem;
+	padding: 1rem;
+	border-bottom: 1px solid gray;
+}
+.checkout {
+	display: flex;
+	padding: 1rem;
+	background-color: #fff;
+}
+/* Media query for screens with a maximum width of 600px */
+
+@media only screen and (max-width: 600px) {
+	.checkout__img {
+		margin-bottom: 0.5rem;
+	}
+
+	.checkout__title {
+		margin-right: 0.5rem;
+		padding: 0.5rem;
+	}
+
+	.checkout {
+		flex-direction: column;
+		padding: 0.5rem;
+	}
+}
